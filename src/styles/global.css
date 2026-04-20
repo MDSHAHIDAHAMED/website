@@ -1,0 +1,83 @@
+/* Custom Font Faces */
+/* PP Mori - Regular */
+@font-face {
+  font-family: 'PP Mori';
+  src: url('/fonts/PP Mori - Regular v2.3/PPMori-Regular.woff2') format('woff2'),
+       url('/fonts/PP Mori - Regular v2.3/PPMori-Regular.woff') format('woff'),
+       url('/fonts/PP Mori - Regular v2.3/PPMori-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* PP Mori - Semibold */
+@font-face {
+  font-family: 'PP Mori';
+  src: url('/fonts/PP Mori - Semibold v2.3/PPMori-Semibold.woff2') format('woff2'),
+       url('/fonts/PP Mori - Semibold v2.3/PPMori-Semibold.woff') format('woff'),
+       url('/fonts/PP Mori - Semibold v2.3/PPMori-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Tickerbit - Regular */
+@font-face {
+  font-family: 'Tickerbit';
+  src: url('/fonts/Tickerbit/Tickerbit-regular.woff2') format('woff2'),
+       url('/fonts/Tickerbit/Tickerbit-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Remove if mapbox is not used */
+@import '~mapbox-gl/dist/mapbox-gl.css';
+
+/* Remove is recharts is not used */
+.recharts-cartesian-axis-tick-value {
+  color: var(--mui-palette-text-secondary);
+  font-size: var(--fontSize-xs);
+}
+
+.recharts-cartesian-grid line {
+  stroke: var(--mui-palette-divider);
+}
+
+.recharts-pie path:focus {
+  outline: none;
+}
+
+
+/* Variables */
+:root {
+  --fontSize-xs: 0.75rem;
+  --fontSize-sm: 0.875rem;
+  --fontSize-md: 1rem;
+  --fontSize-lg: 1.125rem;
+  --fontSize-xl: 1.25rem;
+  --fontSize-2xl: 1.5rem;
+
+  --icon-fontSize-sm: 1rem;
+  --icon-fontSize-md: 1.25rem;
+  --icon-fontSize-lg: 1.5rem;
+
+  /* Remember to keep in sync with theme breakpoints */
+  --maxWidth-xs: 0;
+  --maxWidth-sm: 600px;
+  --maxWidth-md: 900px;
+  --maxWidth-lg: 1200px;
+  --maxWidth-xl: 1440px;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--mui-palette-primary-main);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}

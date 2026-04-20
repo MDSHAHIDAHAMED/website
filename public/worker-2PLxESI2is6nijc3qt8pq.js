@@ -1,0 +1,1 @@
+globalThis.addEventListener("message",a=>{var t;"SKIP_WAITING"===(null===(t=a.data)||void 0===t?void 0:t.type)&&globalThis.skipWaiting()}),globalThis.addEventListener("activate",async()=>{const a=await globalThis.clients.matchAll({type:"window"});for(const t of a)t.postMessage({type:"NEW_SW_ACTIVATED"})});

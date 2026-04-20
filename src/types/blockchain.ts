@@ -1,0 +1,1 @@
+export type TAddressType = `0x${string}`;

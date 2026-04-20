@@ -1,0 +1,32 @@
+{
+    "applinks": {
+      "details": [
+        {
+          "appIDs": [
+            "9PC337C2XB.com.yieldz.yieldz",
+            "9PC337C2XB.com.yieldz.wallet"
+          ],
+          "components": [
+            {
+              "/": "*",
+              "comment": "Matches all routes"
+            }
+          ]
+        }
+      ]
+    },
+    "activitycontinuation": {
+      "apps": [
+        "9PC337C2XB.com.yieldz.yieldz",
+        "9PC337C2XB.com.yieldz.wallet"
+      ]
+    },
+    "webcredentials": {
+      "apps": [
+        "9PC337C2XB.com.yieldz.yieldz",
+        "9PC337C2XB.com.yieldz.wallet"
+      ]
+    }
+  }
+ 
+ 

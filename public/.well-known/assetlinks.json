@@ -1,0 +1,55 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.yieldz.yieldz",
+            "sha256_cert_fingerprints": [
+                "61:B6:F0:79:3B:64:F0:DE:E4:E6:08:D9:60:19:5E:1F:6A:AC:B0:8C:58:54:B4:A8:ED:46:81:9C:D6:DC:85:ED",
+                "F2:B2:5B:C7:B5:FB:26:7A:B8:A3:2A:B0:D5:CA:9E:D1:94:54:05:25:E0:31:B6:91:93:7D:F0:22:A2:1C:F9:68"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.get_login_creds",
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.yieldz.wallet",
+            "sha256_cert_fingerprints": [
+                "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.yieldz.dev",
+            "sha256_cert_fingerprints": [
+                "61:B6:F0:79:3B:64:F0:DE:E4:E6:08:D9:60:19:5E:1F:6A:AC:B0:8C:58:54:B4:A8:ED:46:81:9C:D6:DC:85:ED",
+                "F2:B2:5B:C7:B5:FB:26:7A:B8:A3:2A:B0:D5:CA:9E:D1:94:54:05:25:E0:31:B6:91:93:7D:F0:22:A2:1C:F9:68"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.yieldz.devwallet",
+            "sha256_cert_fingerprints": [
+                "9E:F9:DA:75:50:8B:7E:4B:A5:31:4D:CA:31:E8:D9:D9:D4:08:2D:B4:E6:D3:D8:9A:A9:C4:7B:26:C2:53:48:DC",
+                "BF:27:0D:45:79:89:4F:82:8C:91:6A:00:55:D2:F4:2C:F3:B2:3D:02:88:84:EC:CE:56:AD:6A:DD:6F:A0:72:1E",
+                "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"
+            ]
+        }
+    }
+]
