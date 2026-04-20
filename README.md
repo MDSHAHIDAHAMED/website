@@ -5,7 +5,7 @@ YLDZ is a decentralized finance (DeFi) protocol built on Ethereum that enables s
 This repository contains the frontend user application developed using **Next.js**, **Redux Toolkit (Thunk)**, and **Material UI**.
 
 ---
-git push -u origin main
+<img width="1882" height="903" alt="image" src="https://github.com/user-attachments/assets/48b776db-629f-4cd3-bfe0-559687914f2d" />
 
 ## 📋 Table of Contents
 
